@@ -1,0 +1,46 @@
+.search_input_wrapper {
+  position: relative;
+  gap: 15px;
+
+  .search_input {
+    position: relative;
+    border-radius: 4px;
+    background: rgb(245, 245, 245);
+    border: none;
+    outline: none;
+    width: 243px;
+    padding: 7px 12px 7px 45px;
+    height: 38px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    opacity: 0.5;
+
+    &::placeholder {
+      color: #666;
+    }
+  }
+
+  button {
+    width: 20px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #000;
+    border-radius: 4px;
+  }
+
+  .searchIcon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #666;
+    width: 20px;
+    height: 17.83px;
+  }
+}

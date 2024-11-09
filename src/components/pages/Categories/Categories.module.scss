@@ -1,0 +1,35 @@
+.Categories {
+  padding-top: 20px;
+  border-right: 1px solid rgba(128, 128, 128, 0.562);
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    select {
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0%;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      outline: none;
+      direction: unset;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      li {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+      }
+    }
+  }
+}

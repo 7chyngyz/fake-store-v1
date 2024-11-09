@@ -1,0 +1,35 @@
+.headerConteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 90px;
+  margin-bottom: 100px;
+ 
+  .featuredSection {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem; /* gap-5 */
+
+    .redBox {
+      width: 2rem;
+      height: 4rem;
+      background-color: red;
+      border-radius: 0.5rem; /* rounded */
+    }
+
+    .featuredText {
+      color: red;
+    }
+  }
+
+  .arrivalSection {
+    margin-bottom: 4rem; /* mb-16 */
+
+    .newArrivalText {
+      color: #fff;
+      font-size: 2.5rem; /* text-4xl */
+      font-weight: 600; /* font-semibold */
+      margin-top: 2rem; /* mt-8 */
+    }
+  }
+}

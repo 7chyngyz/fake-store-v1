@@ -1,0 +1,106 @@
+.SearchPage {
+  .content {
+    .search_content {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 70px;
+      gap: 10px;
+      .cart {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        background: white;
+        transition: transform 0.2s;
+
+        &:hover {
+          transform: translateY(-5px);
+        }
+
+        .svg {
+          position: relative;
+          padding: 30px;
+          border-radius: 8px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background: white;
+
+          img {
+            width: 200px;
+            height: 150px;
+            transition: transform 0.3s;
+          }
+
+          &:hover img {
+            transform: scale(1.05);
+          }
+        }
+
+        .title {
+          display: flex;
+          align-items: start;
+          flex-direction: column;
+          row-gap: 15px;
+          padding: 15px;
+
+          .icons {
+            display: flex;
+            cursor: pointer;
+            gap: 20px;
+            .favorite_button {
+              p {
+                display: flex;
+                align-items: center;
+                margin-left: 50px;
+              }
+            }
+            .eye {
+              font-size: 20px;
+              color: black;
+            }
+          }
+
+          h1 {
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: 500;
+          }
+
+          p {
+            color: rgb(219, 68, 68);
+            font-size: 16px;
+            font-weight: 500;
+          }
+
+          .addToCartBtn {
+            margin-top: 20px;
+            width: 100%;
+            height: 40px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffffff;
+            background-color: black;
+            border-radius: 20px;
+            opacity: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transform: translateY(20px);
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+              opacity 0.3s ease-out;
+          }
+
+          &:hover .addToCartBtn {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+  }
+}

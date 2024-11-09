@@ -1,0 +1,73 @@
+.Connect {
+  width: 340px;
+  height: 430px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+  margin-top: 70px;
+  padding: 40px 30px;
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    hr {
+      width: 270px;
+      border: 1px solid rgba(0, 0, 0, 0.355);
+    }
+    .column {
+      display: flex;
+      gap: 20px;
+      svg {
+        width: 50px;
+        height: 20px;
+        border: 1.5px solid rgb(255, 255, 255);
+        border-radius: 31px;
+        background: rgb(219, 68, 68);
+        color: white;
+      }
+      h1 {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+      }
+    }
+    .phone {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      span {
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0%;
+      }
+    }
+    .message {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      span {
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0%;
+      }
+      .emails {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        span {
+          color: rgb(0, 0, 0);
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          letter-spacing: 0%;
+        }
+      }
+    }
+  }
+}

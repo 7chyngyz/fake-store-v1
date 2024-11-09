@@ -1,0 +1,98 @@
+.arrivalContainer {
+  margin: 0 90px;
+
+  .flexContainer {
+    display: flex;
+    gap: 3rem; // gap-12
+  }
+
+  .relativeContainer {
+    position: relative;
+  }
+
+  .ps5Container {
+    width: 34rem;
+    height: 100%;
+    background-color: black;
+    padding-top: 10%; // pt-[10%]
+    color: #fff;
+  }
+
+  .imageFull {
+    max-width: 100%; // max-w-full
+  }
+
+  .ps5TextContainer {
+    padding-left: 2.5rem; // px-10
+    position: absolute;
+    top: 75%;
+    color: #fff;
+  }
+
+  .title {
+    font-size: 2rem; // text-2xl
+    margin-bottom: 0.5rem; // mb-2
+  }
+
+  .description {
+    font-size: 0.875rem; // text-sm
+    margin-bottom: 0.5rem; // mb-2
+  }
+
+  .shopButton {
+    background: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 1px 28px;
+    border: none;
+  }
+
+  .womenCollection {
+    width: 38rem;
+    height: 18rem;
+    background-color: black;
+    margin-bottom: 2.25rem; // mb-9
+    color: #fff;
+  }
+
+  .ml28 {
+    margin-left: 7rem; // ml-28
+  }
+
+  .productWrapper {
+    color: #fff;
+  }
+
+  .womenCollectionText {
+    position: absolute;
+    top: 18%;
+    padding-left: 2rem;
+    color: #fff;
+  }
+
+  .fontBold {
+    font-weight: bold; // font-bold
+  }
+
+  .productList {
+    display: flex;
+    gap: 2rem; // gap-8
+  }
+
+  .productItem {
+    width: 18rem;
+    height: 19rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .productText {
+    position: absolute;
+    top: 75%;
+    padding-left: 2rem; // px-8
+    color: #fff;
+  }
+}
